@@ -28,21 +28,24 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
   height: 320px;
   float: left;
+  width:100%;
 }
 
 #column-1 {
   background: #345995;
+  
 }
 
 #column-2 {
   background:#E40066 ;
+  
 }
 
 #column-3 {
   background: #03CEA4;
+  
 }
 
 
@@ -59,6 +62,10 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width:50%;
+  }
+
   header {
     background-color: #E5F4E3;
   }
@@ -73,10 +80,11 @@ footer {
 
   #column-3 {
     background-color: #6D326D;
+    width: 100%;
   }
 
   footer {
-    background-color: #FFFFFF;
+    background-color: #E5F4E3;
   }
   
 }
@@ -84,6 +92,9 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width:33.3%;
+  }
   header {
     background-color: #896978;
   }
@@ -98,10 +109,11 @@ footer {
 
   #column-3 {
     background-color:#FFD4CA ;
+    width:33.3%;
   }
 
   footer {
-    background-color: #EFD5C3;
+    background-color: #896978;
   }
    
 }
